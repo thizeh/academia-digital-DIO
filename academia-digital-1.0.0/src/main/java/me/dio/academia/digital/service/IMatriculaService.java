@@ -1,5 +1,6 @@
 package me.dio.academia.digital.service;
 
+
 import me.dio.academia.digital.entity.Matricula;
 import me.dio.academia.digital.entity.form.MatriculaForm;
 
@@ -24,7 +25,7 @@ public interface IMatriculaService {
    * Retorna todas as Matrículas que estão no banco de dados.
    * @return - uma lista com todas as Matrículas que estão salvas no DB.
    */
-  List<Matricula> getAll();
+  List<Matricula> getAll(String bairro);
 
   /**
    * Deleta uma Matrícula específica.
